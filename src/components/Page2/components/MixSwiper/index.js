@@ -68,8 +68,8 @@ const MixSwiper = () => {
         loop={true}
         pagination={pagination}
         navigation={{
-          prevEl: '.custom-prev',
-          nextEl: '.custom-next',
+          prevEl: '.mix-swiper-prev',
+          nextEl: '.mix-swiper-next',
         }}
         modules={[EffectCreative, Pagination, Navigation]}
         onSwiper={(swiper) => {
@@ -107,7 +107,7 @@ const MixSwiper = () => {
       </Swiper>
 
       {/* 自定义导航按钮 */}
-      <button className="custom-prev" style={{
+      <button className="mix-swiper-prev" style={{
         position: 'absolute',
         left: '-120px',
         top: '50%',
@@ -123,7 +123,7 @@ const MixSwiper = () => {
         />
       </button>
 
-      <button className="custom-next" style={{
+      <button className="mix-swiper-next" style={{
         position: 'absolute',
         right: '-120px',
         top: '50%',

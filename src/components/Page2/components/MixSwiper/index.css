@@ -119,11 +119,11 @@
   color: #FFFEF3;
 }
 
-.mixSwiper .custom-prev {
+.mixSwiper .mix-swiper-prev {
   left: -120px;
   cursor: pointer;
 }
-.mixSwiper .custom-next {
+.mixSwiper .mix-swiper-next {
   right: 120px;
   cursor: pointer;
 }

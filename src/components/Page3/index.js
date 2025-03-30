@@ -11,7 +11,7 @@ export default function Page3() {
           layout
           initial={{ opacity: 0, y: -100 }}      // 初始状态
           whileInView={{ opacity: 1, y: 0 }}   // 进入视口时的目标状态
-          transition={{ duration: 1 }}       // 动画过渡参数
+          transition={{ duration: 2 }}       // 动画过渡参数
         >
           生活信仰
         </motion.div>
@@ -41,7 +41,7 @@ export default function Page3() {
           layout
           initial={{ opacity: 0, x: 0 }}      // 初始状态
           whileInView={{ opacity: 1, x: 100 }}   // 进入视口时的目标状态
-          transition={{ duration: 1 }}       // 动画过渡参数
+          transition={{ duration: 2 }}       // 动画过渡参数
         >
         </motion.div>
 
@@ -53,7 +53,7 @@ export default function Page3() {
           layout
           initial={{ opacity: 0, y: 20 }}      // 初始状态
           whileInView={{ opacity: 1, y: 0 }}   // 进入视口时的目标状态
-          transition={{ duration: 1 }}       // 动画过渡参数
+          transition={{ duration: 3 }}       // 动画过渡参数
         >
           <div>
             <span>
